@@ -2,6 +2,7 @@
 from typer import Typer
 from random import sample
 from trogon import tui
+from assets.ascii_art import AsciiTitle
 
 
 app = Typer()
@@ -21,9 +22,13 @@ class Lottery:
         sample_size = 6
         population = range(1, 41)
         sueño = sample(range(1, 6), 1)
-        unique_random_numbers_mas_sueño = (
-            f"{sorted(sample(population, sample_size))}, sueño:{sueño}"
-        )
+        unique_random_numbers_mas_sueño = f"""
+            -----------------------------------------
+            PLAY: {sorted(sample(population, sample_size))}, sueño:{sueño}
+            -----------------------------------------
+            """
+        title = AsciiTitle.eurodreams()
+        print(title)
         return unique_random_numbers_mas_sueño
 
     def bonoloto(self):
@@ -34,8 +39,15 @@ class Lottery:
         """
         sample_size = 6
         population = range(1, 50)
-        unique_random_numbers = sample(population, sample_size)
-        return f"Numbers:{sorted(unique_random_numbers)}"
+        # unique_random_numbers = sample(population, sample_size)
+        unique_random_numbers = f"""
+            ------------------------------
+            PLAY: {sorted(sample(population, sample_size))}
+            ------------------------------
+            """
+        title = AsciiTitle.bonoloto()
+        print(title)
+        return unique_random_numbers
 
     def euromillones(self):
         """
@@ -48,9 +60,16 @@ class Lottery:
         sample_size = 5
         population = range(1, 51)
         estrellas = sample(range(1, 13), 2)
-        unique_random_numbers_mas_estrellas = (
-            f"{sorted(sample(population, sample_size))}, estrellas:{estrellas}"
-        )
+        # unique_random_numbers_mas_estrellas = (
+        #     f"{sorted(sample(population, sample_size))}, estrellas:{estrellas}"
+        # )
+        unique_random_numbers_mas_estrellas = f"""
+            --------------------------------------------
+            PLAY: {sorted(sample(population, sample_size))}, estrellas:{estrellas}
+            --------------------------------------------
+            """
+        title = AsciiTitle.euromillones()
+        print(title)
         return unique_random_numbers_mas_estrellas
 
 
