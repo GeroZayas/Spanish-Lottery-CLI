@@ -1,6 +1,6 @@
-# Spanish Lottery Number Generator
+# Spanish Lottery Number Generator 🎰
 
-A Python application designed to generate random lottery numbers for Eurodreams, Bonoloto, and Euromillones games. Utilizing the Typer library for command-line interface (CLI) and the Trogon library for terminal user interface (TUI) enhancements, this tool offers a fun and interactive way to play your favorite lotteries.
+A Python application designed to generate random lottery numbers for Eurodreams, Bonoloto, and Euromillones games. Utilizing the Typer library for command-line interface (CLI) and the Trogon library for terminal user interface (TUI) enhancements, this tool offers a fun and interactive way to play your favorite lotteries. 🚀
 
 <img src="./assets/Logo_de_Loterías_y_Apuestas_del_Estado.jpg" width="300">
 
@@ -10,9 +10,9 @@ A Python application designed to generate random lottery numbers for Eurodreams,
 
 ## Features
 
-- **Interactive CLI**: Generate lottery numbers directly from the command line.
-- **TUI Enhancements**: Enjoy an enhanced terminal experience with ASCII art titles for each game.
-- **Random Number Generation**: Generates unique random numbers for Eurodreams, Bonoloto, and Euromillones according to official rules.
+- **Interactive CLI**: Generate lottery numbers directly from the command line. 💻
+- **TUI Enhancements**: Enjoy an enhanced terminal experience with ASCII art titles for each game. 🖼️
+- **Random Number Generation**: Generates unique random numbers for Eurodreams, Bonoloto, and Euromillones according to official rules. 🔢
 
 ## Getting Started
 
@@ -31,6 +31,7 @@ Clone the repository and install the required libraries:
 git clone https://github.com/GeroZayas/Spanish-Lottery-CLI.git
 cd Spanish-Lottery-CLI
 pip install -r requirements.txt
+
 ```
 
 ### Usage
@@ -51,8 +52,8 @@ Each command will display the generated numbers in a formatted string, along wit
 
 ## Contributing
 
-Contributions are welcome Feel free to submit a pull request or open an issue to suggest improvements or report bugs.
+Contributions are welcome Feel free to submit a pull request or open an issue to suggest improvements or report bugs. 🛠️
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details. 📝
