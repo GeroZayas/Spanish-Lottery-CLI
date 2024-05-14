@@ -2,6 +2,8 @@
 
 A Python application designed to generate random lottery numbers for Eurodreams, Bonoloto, and Euromillones games. Utilizing the Typer library for command-line interface (CLI) and the Trogon library for terminal user interface (TUI) enhancements, this tool offers a fun and interactive way to play your favorite lotteries.
 
+<img src="./assets/Logo_de_Loterías_y_Apuestas_del_Estado.jpg" width="300">
+
 ## Features
 
 - **Interactive CLI**: Generate lottery numbers directly from the command line.
@@ -27,10 +29,10 @@ cd Spanish-Lottery-CLI
 pip install -r requirements.txt
 ```
 
-
 ### Usage
 
 Run the application from the command line:
+
 ```bash
 python3 lottery.py [OPTIONS] COMMAND
 ```
