@@ -1,0 +1,13 @@
+click==8.1.7
+linkify-it-py==2.0.3
+markdown-it-py==3.0.0
+mdit-py-plugins==0.4.1
+mdurl==0.1.2
+pygments==2.18.0
+rich==13.7.1
+shellingham==1.5.4
+textual==0.59.0
+trogon==0.5.0
+typer==0.12.3
+typing-extensions==4.11.0
+uc-micro-py==1.0.3
