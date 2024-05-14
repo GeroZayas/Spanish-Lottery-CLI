@@ -4,6 +4,10 @@ A Python application designed to generate random lottery numbers for Eurodreams,
 
 <img src="./assets/Logo_de_Loterías_y_Apuestas_del_Estado.jpg" width="300">
 
+## Demo
+
+![Usage terminal example gif](/assets/example_term_use.gif)
+
 ## Features
 
 - **Interactive CLI**: Generate lottery numbers directly from the command line.
