@@ -1,3 +1,5 @@
+### README en Español 🇪🇸 ➡️ [Link](./README-Esp.md)
+
 # Spanish Lottery Number Generator 🎰
 
 A Python application designed to generate random lottery numbers for Eurodreams, Bonoloto, and Euromillones games. Utilizing the Typer library for command-line interface (CLI) and the Trogon library for terminal user interface (TUI) enhancements, this tool offers a fun and interactive way to play your favorite lotteries. 🚀
@@ -56,4 +58,4 @@ Contributions are welcome Feel free to submit a pull request or open an issue to
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 📝
+This project is licensed under the MIT License 📝
