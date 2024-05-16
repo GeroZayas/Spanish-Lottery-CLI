@@ -1,5 +1,5 @@
 # coding: utf-8
-from typer import Typer
+from typer import Typer, Option
 from random import sample
 from trogon import tui
 from assets.ascii_art import AsciiTitle
@@ -87,30 +87,50 @@ class Lottery:
 
 @tui
 @app.command()
-def eurodreams():
+def eurodreams(
+    times: int = Option(None, help="Number of times to run the EuroDreams function")
+):
+    if times is None:
+        times = 1  # Default to running once if no value is provided
     lottery = Lottery()
-    print(lottery.eurodreams())
+    for _ in range(times):
+        print(lottery.eurodreams())
 
 
 @tui
 @app.command()
-def bonoloto():
+def bonoloto(
+    times: int = Option(None, help="Number of times to run the Bonoloto function")
+):
+    if times is None:
+        times = 1  # Default to running once if no value is provided
     lottery = Lottery()
-    print(lottery.bonoloto())
+    for _ in range(times):
+        print(lottery.bonoloto())
 
 
 @tui
 @app.command()
-def euromillones():
+def euromillones(
+    times: int = Option(None, help="Number of times to run the Euromillones function")
+):
+    if times is None:
+        times = 1  # Default to running once if no value is provided
     lottery = Lottery()
-    print(lottery.euromillones())
+    for _ in range(times):
+        print(lottery.euromillones())
 
 
 @tui
 @app.command()
-def primitiva():
+def primitiva(
+    times: int = Option(None, help="Number of times to run the Primitiva function")
+):
+    if times is None:
+        times = 1  # Default to running once if no value is provided
     lottery = Lottery()
-    print(lottery.primitiva())
+    for _ in range(times):
+        print(lottery.primitiva())
 
 
 if __name__ == "__main__":
