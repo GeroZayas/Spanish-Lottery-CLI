@@ -72,6 +72,18 @@ class Lottery:
         print(title)
         return unique_random_numbers_mas_estrellas
 
+    def primitiva(self):
+        sample_size = 6
+        population = range(1, 50)
+        unique_random_numbers = f"""
+            --------------------------------------------
+            PLAY: {sorted(sample(population, sample_size))}
+            --------------------------------------------
+            """
+        title = AsciiTitle.primitiva()
+        print(title)
+        return unique_random_numbers
+
 
 @tui
 @app.command()
@@ -92,6 +104,13 @@ def bonoloto():
 def euromillones():
     lottery = Lottery()
     print(lottery.euromillones())
+
+
+@tui
+@app.command()
+def primitiva():
+    lottery = Lottery()
+    print(lottery.primitiva())
 
 
 if __name__ == "__main__":

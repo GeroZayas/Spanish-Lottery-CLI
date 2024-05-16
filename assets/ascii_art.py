@@ -1,3 +1,6 @@
+# https://fsymbols.com/generators/tarty/
+
+
 class AsciiTitle:
     def bonoloto():
         ascii_bonoloto = """
@@ -25,6 +28,15 @@ class AsciiTitle:
         ▒█▄▄▄ ░▀▀▀ ▀░▀▀ ▀▀▀▀ ▀▀▀░ ▀░▀▀ ▀▀▀ ▀░░▀ ▀░░░▀ ▀▀▀
         """
         return ascii_eurodreams
+
+    def primitiva():
+        ascii_primitiva = """                                                                  
+
+        ▒█░░░ █▀▀█   ▒█▀▀█ █▀▀█ ░▀░ █▀▄▀█ ░▀░ ▀▀█▀▀ ░▀░ ▀█░█▀ █▀▀█ 
+        ▒█░░░ █▄▄█   ▒█▄▄█ █▄▄▀ ▀█▀ █░▀░█ ▀█▀ ░░█░░ ▀█▀ ░█▄█░ █▄▄█ 
+        ▒█▄▄█ ▀░░▀   ▒█░░░ ▀░▀▀ ▀▀▀ ▀░░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ░░▀░░ ▀░░▀
+        """
+        return ascii_primitiva
 
 
 if __name__ == "__main__":
