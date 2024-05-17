@@ -88,7 +88,7 @@ class Lottery:
 @tui
 @app.command()
 def eurodreams(
-    times: int = Option(None, help="Number of times to run the EuroDreams function")
+    times: int = Option(None, help="Number of times to run the EuroDreams function"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
@@ -100,7 +100,7 @@ def eurodreams(
 @tui
 @app.command()
 def bonoloto(
-    times: int = Option(None, help="Number of times to run the Bonoloto function")
+    times: int = Option(None, help="Number of times to run the Bonoloto function"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
@@ -112,7 +112,7 @@ def bonoloto(
 @tui
 @app.command()
 def euromillones(
-    times: int = Option(None, help="Number of times to run the Euromillones function")
+    times: int = Option(None, help="Number of times to run the Euromillones function"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
@@ -124,7 +124,7 @@ def euromillones(
 @tui
 @app.command()
 def primitiva(
-    times: int = Option(None, help="Number of times to run the Primitiva function")
+    times: int = Option(None, help="Number of times to run the Primitiva function"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
