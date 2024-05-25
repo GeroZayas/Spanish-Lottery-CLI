@@ -84,6 +84,19 @@ class Lottery:
         print(title)
         return unique_random_numbers
 
+    def gordo_primitiva(self):
+        sample_size = 5
+        population = range(1, 55)
+        no_clave = sample(range(0, 10), 1)
+        unique_random_numbers = f"""
+            --------------------------------------------
+            PLAY: {sorted(sample(population, sample_size))}, número clave:{no_clave}
+            --------------------------------------------
+            """
+        title = AsciiTitle.gordo_primitiva()
+        print(title)
+        return unique_random_numbers
+
 
 @tui
 @app.command()
@@ -100,7 +113,7 @@ def eurodreams(
 @tui
 @app.command()
 def bonoloto(
-    times: int = Option(None, help="Number of times to run the Bonoloto function"),
+    times: int = Option(None, help="Number of times to run the Bonoloto generator"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
@@ -112,7 +125,7 @@ def bonoloto(
 @tui
 @app.command()
 def euromillones(
-    times: int = Option(None, help="Number of times to run the Euromillones function"),
+    times: int = Option(None, help="Number of times to run the Euromillones generator"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
@@ -124,7 +137,7 @@ def euromillones(
 @tui
 @app.command()
 def primitiva(
-    times: int = Option(None, help="Number of times to run the Primitiva function"),
+    times: int = Option(None, help="Number of times to run the Primitiva generator"),
 ):
     if times is None:
         times = 1  # Default to running once if no value is provided
@@ -133,5 +146,20 @@ def primitiva(
         print(lottery.primitiva())
 
 
+@tui
+@app.command()
+def gordo_primitiva(
+    times: int = Option(
+        None, help="Number of times to run the Gordo_Primitiva generator"
+    ),
+):
+    if times is None:
+        times = 1  # Default to running once if no value is provided
+    lottery = Lottery()
+    for _ in range(times):
+        print(lottery.gordo_primitiva())
+
+
 if __name__ == "__main__":
     app()
+

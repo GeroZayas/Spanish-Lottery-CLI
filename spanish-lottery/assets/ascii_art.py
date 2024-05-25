@@ -38,6 +38,16 @@ class AsciiTitle:
         """
         return ascii_primitiva
 
+    def gordo_primitiva():
+        ascii_gordo_primitiva = """     
+                                                                     
+        ▒█▀▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀█   ▒█▀▀█ █▀▀█ ░▀░ █▀▄▀█ ░▀░ ▀▀█▀▀ ░▀░ ▀█░█▀ █▀▀█ 
+        ▒█░▄▄ █░░█ █▄▄▀ █░░█ █░░█   ▒█▄▄█ █▄▄▀ ▀█▀ █░▀░█ ▀█▀ ░░█░░ ▀█▀ ░█▄█░ █▄▄█ 
+        ▒█▄▄█ ▀▀▀▀ ▀░▀▀ ▀▀▀░ ▀▀▀▀   ▒█░░░ ▀░▀▀ ▀▀▀ ▀░░░▀ ▀▀▀ ░░▀░░ ▀▀▀ ░░▀░░ ▀░░▀
+        """
+        return ascii_gordo_primitiva
+
 
 if __name__ == "__main__":
     AsciiTitle()
+
