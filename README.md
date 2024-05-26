@@ -4,11 +4,11 @@
 
 A Python application designed to generate random lottery numbers for Eurodreams, Bonoloto, and Euromillones games. Utilizing the Typer library for command-line interface (CLI) and the Trogon library for terminal user interface (TUI) enhancements, this tool offers a fun and interactive way to play your favorite lotteries. 🚀
 
-<img src="./assets/Logo_de_Loterías_y_Apuestas_del_Estado.jpg" width="300">
+<img src="./spanish-lottery/assets/Logo_de_Loterías_y_Apuestas_del_Estado.jpg" width="300">
 
 ## Demo
 
-![Usage terminal example gif](/assets/example_term_use.gif)
+![Usage terminal example gif](/spanish-lottery/assets/example_term_use.gif)
 
 ## Features
 
